@@ -13,9 +13,13 @@
 		83714B952BBD3853005DEE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83714B932BBD3853005DEE2F /* Main.storyboard */; };
 		83714B972BBD3857005DEE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83714B962BBD3857005DEE2F /* Assets.xcassets */; };
 		83714B9A2BBD3857005DEE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83714B982BBD3857005DEE2F /* LaunchScreen.storyboard */; };
+		E9B457E9835F8A844ED1C8AA /* Pods_KHQR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 477DF8BAD5F761D1CDA374C4 /* Pods_KHQR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180E0D6F62733832A4535F84 /* Pods-KHQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHQR.debug.xcconfig"; path = "Target Support Files/Pods-KHQR/Pods-KHQR.debug.xcconfig"; sourceTree = "<group>"; };
+		477DF8BAD5F761D1CDA374C4 /* Pods_KHQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		625957F71D93F73586FED1C9 /* Pods-KHQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHQR.release.xcconfig"; path = "Target Support Files/Pods-KHQR/Pods-KHQR.release.xcconfig"; sourceTree = "<group>"; };
 		83714B8A2BBD3853005DEE2F /* KHQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83714B8D2BBD3853005DEE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83714B8F2BBD3853005DEE2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B457E9835F8A844ED1C8AA /* Pods_KHQR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5100AE3DE8A676534AB7AC19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				180E0D6F62733832A4535F84 /* Pods-KHQR.debug.xcconfig */,
+				625957F71D93F73586FED1C9 /* Pods-KHQR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BCD2ED4887A98468495D365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				477DF8BAD5F761D1CDA374C4 /* Pods_KHQR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83714B812BBD3853005DEE2F = {
 			isa = PBXGroup;
 			children = (
 				83714B8C2BBD3853005DEE2F /* KHQR */,
 				83714B8B2BBD3853005DEE2F /* Products */,
+				5100AE3DE8A676534AB7AC19 /* Pods */,
+				6BCD2ED4887A98468495D365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83714B9E2BBD3857005DEE2F /* Build configuration list for PBXNativeTarget "KHQR" */;
 			buildPhases = (
+				1D93473BB2F0690C65633228 /* [CP] Check Pods Manifest.lock */,
 				83714B862BBD3853005DEE2F /* Sources */,
 				83714B872BBD3853005DEE2F /* Frameworks */,
 				83714B882BBD3853005DEE2F /* Resources */,
+				028732CBDF477FDB0CE1318C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		028732CBDF477FDB0CE1318C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KHQR/Pods-KHQR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KHQR/Pods-KHQR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KHQR/Pods-KHQR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D93473BB2F0690C65633228 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KHQR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83714B862BBD3853005DEE2F /* Sources */ = {
@@ -287,12 +355,14 @@
 		};
 		83714B9F2BBD3857005DEE2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180E0D6F62733832A4535F84 /* Pods-KHQR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 987TZGMS95;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KHQR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,12 +385,14 @@
 		};
 		83714BA02BBD3857005DEE2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625957F71D93F73586FED1C9 /* Pods-KHQR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 987TZGMS95;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KHQR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

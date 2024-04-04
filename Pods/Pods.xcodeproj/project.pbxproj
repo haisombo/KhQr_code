@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D3322D8C09EFE56216503589086764 /* UnionPay.h in Headers */ = {isa = PBXBuildFile; fileRef = F663D36B80CD7F78742163540586CC47 /* UnionPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		047077C58FDB738FFE20F508E576B3B0 /* BKAdditionalData.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E490FFDC3DAB9BFA432087F157B918 /* BKAdditionalData.m */; };
+		06F80271BE6AD9161054647F8DCF7CFF /* ReserveForUse.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E746A05999CDA75183A6111B2F9163 /* ReserveForUse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07817B742906EFA37EE27E17845F31F1 /* MerchantLanguageAlternatePreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 715CC8A2F6224BA00A958FF765662088 /* MerchantLanguageAlternatePreference.m */; };
+		0F2E3A640C377E22EFFFE6009584B12E /* Pods-KHQR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EE26F482FB07A0B003C57DE0E1809 /* Pods-KHQR-dummy.m */; };
+		14F652D4F75201248586EAD76C170D3C /* SourceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D6F8293312F27171F679C25ECAF2C8 /* SourceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182EBB0557CB04F9BAA5EC450BE56642 /* ErrorConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CF51E96C131A74AC55FF8B2A043F237D /* ErrorConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A4C5289F691FC914CECB5C6D0EE9E24 /* AccountInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738F1F7C47A80123FFA8113D534F46D /* AccountInformation.m */; };
+		1B30C9B0ABE3AB704979CD8B02C2D44F /* NSString+Response.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE66EFA3EC90C9F8F3D733418516F74 /* NSString+Response.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1BAD07A5039E7D7A509BE97180DCCF83 /* ValueLengthConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1EC63CBC69595487F128DA70F33A19 /* ValueLengthConstants.m */; };
+		1C53A138404B9F4C3A7CA51B49EC5B8B /* MobileNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5651C5D4C107D06A09E36D3CE85280 /* MobileNumber.m */; };
+		1E815FFCDA3F19477CEB653F904091FA /* KHQRResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D46A4D26357341D7AEBD59C49057045E /* KHQRResponse.m */; };
+		2127239F145E01DE7FE747228CDB30FF /* QrCrc16.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A436ADC1DC882E4690CE248BF84CA08 /* QrCrc16.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ACBDD513FF559A07F037132C0EBEB1 /* ValueLengthConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 29172D7962084BBDD1F4A8087F096740 /* ValueLengthConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235768FF905042C9BAD24E7DC1872B64 /* KHQRMerchantPresentedCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7402ECB6696C634786A820C65A864425 /* KHQRMerchantPresentedCodes.m */; };
+		28A64D1A63252898A2ADB24801614B39 /* FormatIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7895148C42ACDAA9705C801C202B61B5 /* FormatIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C321C6E1522E720F658A94A150A6DA2 /* NSData+CRC-16CCITT.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA5CB4EBDA9ACF8F2813E3137DAABA3 /* NSData+CRC-16CCITT.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		369DF34B434917B727470D84D200CAE7 /* PurposeOfTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E26C7A6189F665819459021CD651394 /* PurposeOfTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36B842FDB44D60A58A2AC1FD5641B2DE /* MerchantID.h in Headers */ = {isa = PBXBuildFile; fileRef = E60BBCFA2F7DAEF364E38E1FDEBA1B91 /* MerchantID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38DC46F1BE446E226249EBD8936EBCFD /* MerchantName.m in Sources */ = {isa = PBXBuildFile; fileRef = 784794561D61E484A9437E14B0E5801D /* MerchantName.m */; };
+		3BB76C695CE3829AFF7DC539A652735D /* BakongKHQR.m in Sources */ = {isa = PBXBuildFile; fileRef = E46DA97DE7BE4438FCCEC90D9BCFF00A /* BakongKHQR.m */; };
+		3D2EA4A0DB8A8C12CE2BE11BE4E2A605 /* KHQRData.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E959C8DDB1908B17A6281FAE26A488 /* KHQRData.m */; };
+		3D42022485B7F3F37ED4D64C9BBC8C1B /* FormatIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F33E93A6A357FFFB9E3666047DCA21EC /* FormatIndicator.m */; };
+		3DC3AD9D908AF0159BDC5255603E36C2 /* MerchantLanguageAlternatePreference.h in Headers */ = {isa = PBXBuildFile; fileRef = A968431B3E02EC8A21D0B310F0D45A11 /* MerchantLanguageAlternatePreference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41BCD5C3C7EA45E471B46996BC518EBE /* SourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D751BB0E6FA974DC907664E751F23182 /* SourceInfo.m */; };
+		4270966B6525764EE003D6280B4A82E4 /* MerchantLanguageTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 868CDD54195E284312CA48EAAE16ED14 /* MerchantLanguageTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4511C59EEDBBC17B36D83010FB58E14E /* ReserveForUse.m in Sources */ = {isa = PBXBuildFile; fileRef = A785481E80D1D2B5983C8F1ECE7D0038 /* ReserveForUse.m */; };
+		4532760FED81AF71925C5CFA92B40470 /* KHQRResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C453F1F11DEBA3B1EE94BAA8F009D21 /* KHQRResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479E9688459FDA5F1ED96729A537AD17 /* NSString+md5.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FC639FC830217B5EE77A5677BD1470 /* NSString+md5.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4EC77A6687E7EF1F83C227902129EF10 /* CRCValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5673B522DEF072D3A32D6202B9DF2AE5 /* CRCValidation.m */; };
+		4ED13007E878054C256B77215B5F92AC /* MerchantNameAlternateLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B7524515B7D0E901B1128813EB4625 /* MerchantNameAlternateLanguage.m */; };
+		4F3350D21845FA8EBAD908F4F569BB91 /* BakongKHQR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C754915113512952B7C58430676254B4 /* BakongKHQR-dummy.m */; };
+		4F842FF2D598CAD219839E7467C1B9CB /* BKAdditionalData.h in Headers */ = {isa = PBXBuildFile; fileRef = C3222A1084562EC5908D4CAB3007FFAA /* BKAdditionalData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FBC56F92C40EE50102D316612483138 /* QrCrc16.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2EFC7DCFA0BE72397CD15DCCC7EAB /* QrCrc16.m */; };
+		50BDEB64C166EDDBCE18939425CA462F /* MerchantLanguageTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 966C10FC604D22621061165B582F0B74 /* MerchantLanguageTemplate.m */; };
+		5780ADC965A6964A0B7DC0160C50ADF9 /* MerchantAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F6AEED9F0A40DF2278BECE5DB10866 /* MerchantAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		588BB28D366DA8F6BA2105987993BC5B /* StoreLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDDDB1664FD7948FFB7155941001CA2 /* StoreLabel.m */; };
+		5B783BCC5A37F3CDCAD1EAE79053697F /* BakongKHQR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAA4F610720BBB66F8414747535B462 /* BakongKHQR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D9ABE5A6EE931FA6D1EB9FBDE537DAA /* MerchantCityAlternateLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = F697EB2ADA2AD8B0048EBBF7CF2EBDDD /* MerchantCityAlternateLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E9C6F3BB6343FA710677C553D6D9E37 /* MerchantCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 074BABDAC717AAE85E9B807E9D89D04B /* MerchantCity.m */; };
+		5FE517023DAC54D9BF28571DE452CAF1 /* CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 85033E434E3714D430EF5EEEDC00C910 /* CRC.m */; };
+		632AC718BF246629336A5CE9B77EF63E /* TransactionAmount.h in Headers */ = {isa = PBXBuildFile; fileRef = 79931948DD9A0FDCDC2EC34079E977E5 /* TransactionAmount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6358C1282192983A8D7B96E566277B98 /* MerchantNameAlternateLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6160B955AF008C1C920F7BBB885631A5 /* MerchantNameAlternateLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650C7AFF438934888BEEAFA44072B14A /* StoreLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0C99DD5BD00074132C8B11885BF459 /* StoreLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B390422C13EE3E135D6FEC318A933A4 /* Pods-KHQR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58682D6AA10073C93A51B65D35A1D2A5 /* Pods-KHQR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		716F6F381AF619EF0F9B741823DF5606 /* KHQRProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E554AFA3BA7B1897B4E737402FB79B6F /* KHQRProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7987374F572D36137FD16D742E1E4DF1 /* TransactionCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F80A86E543CA594BAF8D3EFB9301DB /* TransactionCurrency.m */; };
+		7EBB201090F34F2CD3BF0FC1CA26BA31 /* KHQRData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3495B3030062AEFC2ADC2B49CDB8D7AF /* KHQRData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DACB8E250AB7CE6F46295D18EEF0A4 /* CountryCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 377F25982D0D56AD07EA5313E98A332E /* CountryCode.m */; };
+		8657B3AC90F59933078AF50AF9E4866F /* CRCValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE6315E9FCE5D0EB1517419D601B3E9 /* CRCValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87B7B4A5175A2721A7E377B1F76BB64A /* MerchantName.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7FF2F4505ADB6AFC4D637FDFE84344 /* MerchantName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88EA04840D0BA8A89F6E5057508343A5 /* MerchantCategoryCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE2E48A00C50DF97AB5C04B9C641489 /* MerchantCategoryCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8E9306A0E2AC8349DCE75EFF96E72E /* ResponseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BF88B7653AC1DA4FC48A92A9DE8E36 /* ResponseProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9012277907FA182499F53B1F0649510A /* MerchantInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E41AD0E77AED62700D3BEBB42DCD34 /* MerchantInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92D2373BA6F9AED7F163A62BAA85D546 /* IndividualInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 837ED16F303B9AABB6B52D17A0EDB922 /* IndividualInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94382B20AA6D9E73A80FF64FB10D9E40 /* TransactionCurrency.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB9A240CE9A636C5FF44E58E5F4911A /* TransactionCurrency.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94BFDB799F5D3E0C80FCA400850424C8 /* KHQRException.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C3105155158C4037D593B32C4B220A /* KHQRException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97520B2B6D0AFA3D183F12DCDCA06086 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = B7524B0949CEB92A63C8B98346E75F4B /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF025BEFAF56CD540B300D09E6B3306 /* MerchantCityAlternateLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DFE8AFB7BA299C902A344B038B70FB /* MerchantCityAlternateLanguage.m */; };
+		A29BDF45378DCC2BB7214B15A95E26CE /* BillNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F13B25AD0D312794D1B2610687310B /* BillNumber.m */; };
+		A414928EC3C016CDF396EEC69CFD419F /* AcquiringBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC544F5D134CEF7232EA340CAF7686F /* AcquiringBank.m */; };
+		A9F5F6E3B67E8656DFD23BC8E63CF879 /* MobileNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7BC69BF2BEDB35E4E84277C3C4BB71 /* MobileNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA25EAB5C811397557F5FFB78A00ECDD /* BakongKHQR.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E21FC376D4C773113BE82789EBE924 /* BakongKHQR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1BCE604FB26239F35A13C923A886EA8 /* MerchantID.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A64C3398E8028241B5B1486D518616 /* MerchantID.m */; };
+		B4A7DA281FEB7AF0D445A9E1FBBA7D5A /* KHQRMerchantPresentedCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD3D05E9C681EC9ACF53A19839484BB /* KHQRMerchantPresentedCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FA276BACD096B2C32BA1D6B2BB0033 /* TerminalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD3327AFCE7B50FF6B816EA359C701D /* TerminalLabel.m */; };
+		B9AB01953CDD17F57188A1B33C13AF6F /* AcquiringBank.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD0FCC61063B6E1C4B3C8DBB3742F87 /* AcquiringBank.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB3EE139B1DA5B94FD935775DCC8265 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = FE141041A61B8BE935516A5187C90D71 /* Constants.m */; };
+		C5095D9459141ABA5B74662FC9A7F771 /* NSData+CRC-16CCITT.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C520B8D33AC1218D16AD7D6600DAE /* NSData+CRC-16CCITT.m */; };
+		C592BB866CB64FDE6DBCAB7A70568288 /* MerchantInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0C54C313119E9D105D3C3255836F6 /* MerchantInfo.m */; };
+		C68ACB97ED75712139FB365E5BD06CE2 /* ErrorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FD91D23E89C0DBE7E0DEB691284670B2 /* ErrorConstants.m */; };
+		C79D6AAC8477A6B649932DC06761E98D /* CountryCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 053FA440E07CE04B441B91313EC1E8A2 /* CountryCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9702E1FE52C20680ACE79B797A69B0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C9A3B306DD7C983745CC58A0EC98BAE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CA16FE7A000582BC6669A0A3EFFF9E3D /* MerchantAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBBCA04AC0C51B0331D0E558B9C5812 /* MerchantAccount.m */; };
+		CA9BE1D9AFA2DBB1704E79FEF112E1EB /* PointInitialize.h in Headers */ = {isa = PBXBuildFile; fileRef = 22620302F160E2ACCCB15327EC8C5804 /* PointInitialize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA8B36F32E0246B7325EB8A439A8AFD /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = B85949DCA7CFF22371E3CBB9382D0E33 /* Status.m */; };
+		CE5363F1CE5C58523219559BD6AE2747 /* AccountTypeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD37CBEEA6F39BBCEC2448DC62F6973 /* AccountTypeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF4352450560F3597F44537BAB7003A1 /* NSString+md5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6B990382488B96A2F61C7444166729 /* NSString+md5.m */; };
+		CF591045E350C99D7A3C5EA83B4ED0FD /* KHQRDecodeData.h in Headers */ = {isa = PBXBuildFile; fileRef = C86D9DC7273282A08D2D48C83D5C1CCF /* KHQRDecodeData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D033487629C072606A53B8F1551CA65B /* NSString+Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CB4B5BDDF371507E93B6923E81D33 /* NSString+Response.m */; };
+		D1DF22702809F38E436913BAF884EC3C /* BillNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 0180072DB084CA3E106C185F40502D3B /* BillNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D23C60813AF727BAA16E3AB6CB7D9F5F /* IndividualInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD7BA155C953B56C3112698DCF3896 /* IndividualInfo.m */; };
+		D715F4601562146CBE92673519FD505D /* Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E643293D8474AE959E1F1CF36ED8708 /* Enums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95AC8CB2E51F98006FFE3E1A7314177 /* UnionPay.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F859CB1E9FAC3ED2346F7F4472C2A8 /* UnionPay.m */; };
+		DA995AD0EA05105C2726267541E46868 /* TransactionAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E103D0B80CA1D5DBC38E184C0A3D364 /* TransactionAmount.m */; };
+		E2CB6E07D22EFE92A2C945CA9D1BAC7C /* TerminalLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E930B4B2EC22A48B26DE839F0FE32233 /* TerminalLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E362BC5C1A4D42CD4F0980EFD445D053 /* MerchantCategoryCode.m in Sources */ = {isa = PBXBuildFile; fileRef = C38B9C5F3CDE5EF884A7C4A8BD792BF4 /* MerchantCategoryCode.m */; };
+		E6B1DB593F8BB082EC66385C3602A7F7 /* Status.h in Headers */ = {isa = PBXBuildFile; fileRef = 8002EA8F1816CC5F284F4C8C5F8BCF5A /* Status.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E72C263A1DD9D97AE8C29611B4EF5FBA /* AccountInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0ED1DE366B552AB6E5299FE1CC3827 /* AccountInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0537D539E0EDEF8FB82DB2074EF84D1 /* KHQRException.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DEC618BA08B94756BDC34D2517F0A /* KHQRException.m */; };
+		F061131CCF0FD03149A90BC608E933AA /* PointInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8783A8DCEFEE94D02D0B707951257117 /* PointInitialize.m */; };
+		F11EE9474659B2BA6E94405D9EF1C683 /* KHQRDeepLinkData.h in Headers */ = {isa = PBXBuildFile; fileRef = 051279520136864648A150BCA81DD1A8 /* KHQRDeepLinkData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1A212373513B93EC9E393EE11D3794E /* KHQRDecodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = EB50DFFC794DE5DA765477C836D668F1 /* KHQRDecodeData.m */; };
+		F1E2B9F30E49B0DAE7363C05E0894F28 /* CRC.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2DB255B18D17F66B87F76F571BB1E3 /* CRC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8430D5ED121AC72A7EFBF4507A6D8B9 /* TagLengthStringProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C9EFB923FA183B113D6854CA4CCCF7 /* TagLengthStringProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F890DEB02E470068FA6C1F3FFD420DC2 /* KHQRDeepLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 500A38FBD380935E65692FFA7B26AEA9 /* KHQRDeepLinkData.m */; };
+		F946E6A9968E8661D2B2FF21A2DA0135 /* MerchantCity.h in Headers */ = {isa = PBXBuildFile; fileRef = F87844551D2270D8D8F4F5CB25CAB104 /* MerchantCity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB2F1B0644FB991025044A82DAC3782A /* PurposeOfTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 757CB78E82362CAAB2DA0F97A51F2042 /* PurposeOfTransaction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		319A2F9110B38EA975616790770000E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A51A0870EE310BD2274E8D813428FB4;
+			remoteInfo = BakongKHQR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C0C54C313119E9D105D3C3255836F6 /* MerchantInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantInfo.m; path = BakongKHQR/Classes/Public/Models/MerchantInfo.m; sourceTree = "<group>"; };
+		0180072DB084CA3E106C185F40502D3B /* BillNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BillNumber.h; path = BakongKHQR/Classes/Public/Models/AdditionalData/BillNumber.h; sourceTree = "<group>"; };
+		051279520136864648A150BCA81DD1A8 /* KHQRDeepLinkData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHQRDeepLinkData.h; path = BakongKHQR/Classes/Public/Models/KHQRDeepLinkData.h; sourceTree = "<group>"; };
+		053FA440E07CE04B441B91313EC1E8A2 /* CountryCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CountryCode.h; path = BakongKHQR/Classes/Public/Models/CountryCode.h; sourceTree = "<group>"; };
+		05E41AD0E77AED62700D3BEBB42DCD34 /* MerchantInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantInfo.h; path = BakongKHQR/Classes/Public/Models/MerchantInfo.h; sourceTree = "<group>"; };
+		05F13B25AD0D312794D1B2610687310B /* BillNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BillNumber.m; path = BakongKHQR/Classes/Public/Models/AdditionalData/BillNumber.m; sourceTree = "<group>"; };
+		074BABDAC717AAE85E9B807E9D89D04B /* MerchantCity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantCity.m; path = BakongKHQR/Classes/Public/Models/MerchantCity.m; sourceTree = "<group>"; };
+		08E746A05999CDA75183A6111B2F9163 /* ReserveForUse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReserveForUse.h; path = BakongKHQR/Classes/Public/Models/ReserveForUse.h; sourceTree = "<group>"; };
+		0BAD7BA155C953B56C3112698DCF3896 /* IndividualInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IndividualInfo.m; path = BakongKHQR/Classes/Public/Models/IndividualInfo.m; sourceTree = "<group>"; };
+		0C8CB4B5BDDF371507E93B6923E81D33 /* NSString+Response.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Response.m"; path = "BakongKHQR/Classes/Private/Categories/NSString+Response.m"; sourceTree = "<group>"; };
+		16610EAC9D253C18FEBC989F03CD1B4F /* Pods-KHQR-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KHQR-frameworks.sh"; sourceTree = "<group>"; };
+		17E959C8DDB1908B17A6281FAE26A488 /* KHQRData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHQRData.m; path = BakongKHQR/Classes/Public/Models/KHQRData.m; sourceTree = "<group>"; };
+		19C9EFB923FA183B113D6854CA4CCCF7 /* TagLengthStringProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TagLengthStringProtocol.h; path = BakongKHQR/Classes/Public/Protocols/TagLengthStringProtocol.h; sourceTree = "<group>"; };
+		1AA2EFC7DCFA0BE72397CD15DCCC7EAB /* QrCrc16.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QrCrc16.m; path = BakongKHQR/Classes/Public/QrCrc16.m; sourceTree = "<group>"; };
+		1E103D0B80CA1D5DBC38E184C0A3D364 /* TransactionAmount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionAmount.m; path = BakongKHQR/Classes/Public/Models/TransactionAmount.m; sourceTree = "<group>"; };
+		1F38D47063EC12BB0B951B3A4726C49A /* Pods-KHQR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KHQR-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22620302F160E2ACCCB15327EC8C5804 /* PointInitialize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PointInitialize.h; path = BakongKHQR/Classes/Public/Models/PointInitialize.h; sourceTree = "<group>"; };
+		29172D7962084BBDD1F4A8087F096740 /* ValueLengthConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ValueLengthConstants.h; path = BakongKHQR/Classes/Public/Constants/ValueLengthConstants.h; sourceTree = "<group>"; };
+		2A436ADC1DC882E4690CE248BF84CA08 /* QrCrc16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QrCrc16.h; path = BakongKHQR/Classes/Public/QrCrc16.h; sourceTree = "<group>"; };
+		2AC544F5D134CEF7232EA340CAF7686F /* AcquiringBank.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AcquiringBank.m; path = BakongKHQR/Classes/Public/Models/AcquiringBank.m; sourceTree = "<group>"; };
+		2B2EE26F482FB07A0B003C57DE0E1809 /* Pods-KHQR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KHQR-dummy.m"; sourceTree = "<group>"; };
+		2DBBCA04AC0C51B0331D0E558B9C5812 /* MerchantAccount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantAccount.m; path = BakongKHQR/Classes/Public/Models/MerchantAccount.m; sourceTree = "<group>"; };
+		317EEA1983F40158BE0583D36453A9DC /* Pods-KHQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHQR.release.xcconfig"; sourceTree = "<group>"; };
+		3495B3030062AEFC2ADC2B49CDB8D7AF /* KHQRData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHQRData.h; path = BakongKHQR/Classes/Public/Models/KHQRData.h; sourceTree = "<group>"; };
+		3738F1F7C47A80123FFA8113D534F46D /* AccountInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AccountInformation.m; path = BakongKHQR/Classes/Public/Models/AccountInformation.m; sourceTree = "<group>"; };
+		377F25982D0D56AD07EA5313E98A332E /* CountryCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CountryCode.m; path = BakongKHQR/Classes/Public/Models/CountryCode.m; sourceTree = "<group>"; };
+		3FD3D05E9C681EC9ACF53A19839484BB /* KHQRMerchantPresentedCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHQRMerchantPresentedCodes.h; path = BakongKHQR/Classes/Public/Constants/KHQRMerchantPresentedCodes.h; sourceTree = "<group>"; };
+		436C520B8D33AC1218D16AD7D6600DAE /* NSData+CRC-16CCITT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+CRC-16CCITT.m"; path = "BakongKHQR/Classes/Private/Categories/NSData+CRC-16CCITT.m"; sourceTree = "<group>"; };
+		500A38FBD380935E65692FFA7B26AEA9 /* KHQRDeepLinkData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHQRDeepLinkData.m; path = BakongKHQR/Classes/Public/Models/KHQRDeepLinkData.m; sourceTree = "<group>"; };
+		5673B522DEF072D3A32D6202B9DF2AE5 /* CRCValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRCValidation.m; path = BakongKHQR/Classes/Public/Models/CRCValidation.m; sourceTree = "<group>"; };
+		57F6AEED9F0A40DF2278BECE5DB10866 /* MerchantAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantAccount.h; path = BakongKHQR/Classes/Public/Models/MerchantAccount.h; sourceTree = "<group>"; };
+		58682D6AA10073C93A51B65D35A1D2A5 /* Pods-KHQR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHQR-umbrella.h"; sourceTree = "<group>"; };
+		5A0ED1DE366B552AB6E5299FE1CC3827 /* AccountInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AccountInformation.h; path = BakongKHQR/Classes/Public/Models/AccountInformation.h; sourceTree = "<group>"; };
+		5BAD8B234765D5111F022905D0A4EE62 /* Pods-KHQR-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHQR-Info.plist"; sourceTree = "<group>"; };
+		5BD0FCC61063B6E1C4B3C8DBB3742F87 /* AcquiringBank.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AcquiringBank.h; path = BakongKHQR/Classes/Public/Models/AcquiringBank.h; sourceTree = "<group>"; };
+		5C1EC63CBC69595487F128DA70F33A19 /* ValueLengthConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ValueLengthConstants.m; path = BakongKHQR/Classes/Public/Constants/ValueLengthConstants.m; sourceTree = "<group>"; };
+		5CAA4F610720BBB66F8414747535B462 /* BakongKHQR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BakongKHQR-umbrella.h"; sourceTree = "<group>"; };
+		5D7FF2F4505ADB6AFC4D637FDFE84344 /* MerchantName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantName.h; path = BakongKHQR/Classes/Public/Models/MerchantName.h; sourceTree = "<group>"; };
+		5F5651C5D4C107D06A09E36D3CE85280 /* MobileNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobileNumber.m; path = BakongKHQR/Classes/Public/Models/MobileNumber.m; sourceTree = "<group>"; };
+		6160B955AF008C1C920F7BBB885631A5 /* MerchantNameAlternateLanguage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantNameAlternateLanguage.h; path = BakongKHQR/Classes/Public/Models/MerchantLanguageTemplate/MerchantNameAlternateLanguage.h; sourceTree = "<group>"; };
+		62DFE8AFB7BA299C902A344B038B70FB /* MerchantCityAlternateLanguage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantCityAlternateLanguage.m; path = BakongKHQR/Classes/Public/Models/MerchantLanguageTemplate/MerchantCityAlternateLanguage.m; sourceTree = "<group>"; };
+		69B7524515B7D0E901B1128813EB4625 /* MerchantNameAlternateLanguage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantNameAlternateLanguage.m; path = BakongKHQR/Classes/Public/Models/MerchantLanguageTemplate/MerchantNameAlternateLanguage.m; sourceTree = "<group>"; };
+		6AE6315E9FCE5D0EB1517419D601B3E9 /* CRCValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRCValidation.h; path = BakongKHQR/Classes/Public/Models/CRCValidation.h; sourceTree = "<group>"; };
+		6C0C99DD5BD00074132C8B11885BF459 /* StoreLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StoreLabel.h; path = BakongKHQR/Classes/Public/Models/AdditionalData/StoreLabel.h; sourceTree = "<group>"; };
+		715CC8A2F6224BA00A958FF765662088 /* MerchantLanguageAlternatePreference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantLanguageAlternatePreference.m; path = BakongKHQR/Classes/Public/Models/MerchantLanguageTemplate/MerchantLanguageAlternatePreference.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7402ECB6696C634786A820C65A864425 /* KHQRMerchantPresentedCodes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHQRMerchantPresentedCodes.m; path = BakongKHQR/Classes/Public/Constants/KHQRMerchantPresentedCodes.m; sourceTree = "<group>"; };
+		757CB78E82362CAAB2DA0F97A51F2042 /* PurposeOfTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PurposeOfTransaction.m; path = BakongKHQR/Classes/Public/Models/AdditionalData/PurposeOfTransaction.m; sourceTree = "<group>"; };
+		759AC459CB7D1B3FB0141EF7C978F4C4 /* Pods-KHQR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHQR-acknowledgements.plist"; sourceTree = "<group>"; };
+		784794561D61E484A9437E14B0E5801D /* MerchantName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantName.m; path = BakongKHQR/Classes/Public/Models/MerchantName.m; sourceTree = "<group>"; };
+		7895148C42ACDAA9705C801C202B61B5 /* FormatIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FormatIndicator.h; path = BakongKHQR/Classes/Public/Models/FormatIndicator.h; sourceTree = "<group>"; };
+		78A64C3398E8028241B5B1486D518616 /* MerchantID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantID.m; path = BakongKHQR/Classes/Public/Models/MerchantID.m; sourceTree = "<group>"; };
+		79931948DD9A0FDCDC2EC34079E977E5 /* TransactionAmount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionAmount.h; path = BakongKHQR/Classes/Public/Models/TransactionAmount.h; sourceTree = "<group>"; };
+		7A6B990382488B96A2F61C7444166729 /* NSString+md5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+md5.m"; path = "BakongKHQR/Classes/Private/Categories/NSString+md5.m"; sourceTree = "<group>"; };
+		7C453F1F11DEBA3B1EE94BAA8F009D21 /* KHQRResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHQRResponse.h; path = BakongKHQR/Classes/Public/Models/KHQRResponse.h; sourceTree = "<group>"; };
+		7D60ABDBB3AC47769DD33985EE19011C /* BakongKHQR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BakongKHQR-prefix.pch"; sourceTree = "<group>"; };
+		8002EA8F1816CC5F284F4C8C5F8BCF5A /* Status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Status.h; path = BakongKHQR/Classes/Public/Models/Status.h; sourceTree = "<group>"; };
+		837ED16F303B9AABB6B52D17A0EDB922 /* IndividualInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IndividualInfo.h; path = BakongKHQR/Classes/Public/Models/IndividualInfo.h; sourceTree = "<group>"; };
+		85033E434E3714D430EF5EEEDC00C910 /* CRC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRC.m; path = BakongKHQR/Classes/Public/Models/CRC.m; sourceTree = "<group>"; };
+		85F52A20873368E9458891E63CA11D0A /* Pods-KHQR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KHQR.modulemap"; sourceTree = "<group>"; };
+		868CDD54195E284312CA48EAAE16ED14 /* MerchantLanguageTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantLanguageTemplate.h; path = BakongKHQR/Classes/Public/Models/MerchantLanguageTemplate/MerchantLanguageTemplate.h; sourceTree = "<group>"; };
+		8783A8DCEFEE94D02D0B707951257117 /* PointInitialize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PointInitialize.m; path = BakongKHQR/Classes/Public/Models/PointInitialize.m; sourceTree = "<group>"; };
+		88D6F8293312F27171F679C25ECAF2C8 /* SourceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SourceInfo.h; path = BakongKHQR/Classes/Public/Models/SourceInfo.h; sourceTree = "<group>"; };
+		8E643293D8474AE959E1F1CF36ED8708 /* Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Enums.h; path = BakongKHQR/Classes/Public/Enums.h; sourceTree = "<group>"; };
+		8EA5CB4EBDA9ACF8F2813E3137DAABA3 /* NSData+CRC-16CCITT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+CRC-16CCITT.h"; path = "BakongKHQR/Classes/Private/Categories/NSData+CRC-16CCITT.h"; sourceTree = "<group>"; };
+		94C3105155158C4037D593B32C4B220A /* KHQRException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHQRException.h; path = BakongKHQR/Classes/Public/KHQRException.h; sourceTree = "<group>"; };
+		94E21FC376D4C773113BE82789EBE924 /* BakongKHQR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BakongKHQR.h; path = BakongKHQR/Classes/Public/BakongKHQR.h; sourceTree = "<group>"; };
+		966C10FC604D22621061165B582F0B74 /* MerchantLanguageTemplate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantLanguageTemplate.m; path = BakongKHQR/Classes/Public/Models/MerchantLanguageTemplate/MerchantLanguageTemplate.m; sourceTree = "<group>"; };
+		97F80A86E543CA594BAF8D3EFB9301DB /* TransactionCurrency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionCurrency.m; path = BakongKHQR/Classes/Public/Models/TransactionCurrency.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE2E48A00C50DF97AB5C04B9C641489 /* MerchantCategoryCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantCategoryCode.h; path = BakongKHQR/Classes/Public/Models/MerchantCategoryCode.h; sourceTree = "<group>"; };
+		9E26C7A6189F665819459021CD651394 /* PurposeOfTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PurposeOfTransaction.h; path = BakongKHQR/Classes/Public/Models/AdditionalData/PurposeOfTransaction.h; sourceTree = "<group>"; };
+		A2FC639FC830217B5EE77A5677BD1470 /* NSString+md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+md5.h"; path = "BakongKHQR/Classes/Private/Categories/NSString+md5.h"; sourceTree = "<group>"; };
+		A785481E80D1D2B5983C8F1ECE7D0038 /* ReserveForUse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReserveForUse.m; path = BakongKHQR/Classes/Public/Models/ReserveForUse.m; sourceTree = "<group>"; };
+		A968431B3E02EC8A21D0B310F0D45A11 /* MerchantLanguageAlternatePreference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantLanguageAlternatePreference.h; path = BakongKHQR/Classes/Public/Models/MerchantLanguageTemplate/MerchantLanguageAlternatePreference.h; sourceTree = "<group>"; };
+		AD032338B6FF1A402C3AC6C0DFEA6DEE /* Pods-KHQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHQR.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD84CFF8EAF4F585B80D6FFEA55698C /* BakongKHQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BakongKHQR.release.xcconfig; sourceTree = "<group>"; };
+		ADDDDB1664FD7948FFB7155941001CA2 /* StoreLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StoreLabel.m; path = BakongKHQR/Classes/Public/Models/AdditionalData/StoreLabel.m; sourceTree = "<group>"; };
+		B7524B0949CEB92A63C8B98346E75F4B /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = BakongKHQR/Classes/Public/Constants/Constants.h; sourceTree = "<group>"; };
+		B85949DCA7CFF22371E3CBB9382D0E33 /* Status.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Status.m; path = BakongKHQR/Classes/Public/Models/Status.m; sourceTree = "<group>"; };
+		BFB9A240CE9A636C5FF44E58E5F4911A /* TransactionCurrency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionCurrency.h; path = BakongKHQR/Classes/Public/Models/TransactionCurrency.h; sourceTree = "<group>"; };
+		BFE1571C29F8A54F40505ACE7D4E11D7 /* BakongKHQR-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BakongKHQR-Info.plist"; sourceTree = "<group>"; };
+		C3222A1084562EC5908D4CAB3007FFAA /* BKAdditionalData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKAdditionalData.h; path = BakongKHQR/Classes/Public/Models/AdditionalData/BKAdditionalData.h; sourceTree = "<group>"; };
+		C38B9C5F3CDE5EF884A7C4A8BD792BF4 /* MerchantCategoryCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantCategoryCode.m; path = BakongKHQR/Classes/Public/Models/MerchantCategoryCode.m; sourceTree = "<group>"; };
+		C4F859CB1E9FAC3ED2346F7F4472C2A8 /* UnionPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UnionPay.m; path = BakongKHQR/Classes/Public/Models/UnionPay/UnionPay.m; sourceTree = "<group>"; };
+		C754915113512952B7C58430676254B4 /* BakongKHQR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BakongKHQR-dummy.m"; sourceTree = "<group>"; };
+		C82CD2440479A74739E0EBB51A252EC2 /* BakongKHQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BakongKHQR.debug.xcconfig; sourceTree = "<group>"; };
+		C86D9DC7273282A08D2D48C83D5C1CCF /* KHQRDecodeData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHQRDecodeData.h; path = BakongKHQR/Classes/Public/Models/KHQRDecodeData.h; sourceTree = "<group>"; };
+		CC2DB255B18D17F66B87F76F571BB1E3 /* CRC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRC.h; path = BakongKHQR/Classes/Public/Models/CRC.h; sourceTree = "<group>"; };
+		CF51E96C131A74AC55FF8B2A043F237D /* ErrorConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ErrorConstants.h; path = BakongKHQR/Classes/Public/Constants/ErrorConstants.h; sourceTree = "<group>"; };
+		D34A688EE742AF353F5CB3AEBDA44153 /* BakongKHQR */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BakongKHQR; path = BakongKHQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46A4D26357341D7AEBD59C49057045E /* KHQRResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHQRResponse.m; path = BakongKHQR/Classes/Public/Models/KHQRResponse.m; sourceTree = "<group>"; };
+		D665349A4E7F94105D458BF10792022F /* Pods-KHQR */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KHQR"; path = Pods_KHQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D751BB0E6FA974DC907664E751F23182 /* SourceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SourceInfo.m; path = BakongKHQR/Classes/Public/Models/SourceInfo.m; sourceTree = "<group>"; };
+		DDD37CBEEA6F39BBCEC2448DC62F6973 /* AccountTypeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AccountTypeProtocol.h; path = BakongKHQR/Classes/Public/Protocols/AccountTypeProtocol.h; sourceTree = "<group>"; };
+		DF7BC69BF2BEDB35E4E84277C3C4BB71 /* MobileNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileNumber.h; path = BakongKHQR/Classes/Public/Models/MobileNumber.h; sourceTree = "<group>"; };
+		E46DA97DE7BE4438FCCEC90D9BCFF00A /* BakongKHQR.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BakongKHQR.m; path = BakongKHQR/Classes/Public/BakongKHQR.m; sourceTree = "<group>"; };
+		E554AFA3BA7B1897B4E737402FB79B6F /* KHQRProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHQRProtocol.h; path = BakongKHQR/Classes/Public/Protocols/KHQRProtocol.h; sourceTree = "<group>"; };
+		E60BBCFA2F7DAEF364E38E1FDEBA1B91 /* MerchantID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantID.h; path = BakongKHQR/Classes/Public/Models/MerchantID.h; sourceTree = "<group>"; };
+		E930B4B2EC22A48B26DE839F0FE32233 /* TerminalLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TerminalLabel.h; path = BakongKHQR/Classes/Public/Models/AdditionalData/TerminalLabel.h; sourceTree = "<group>"; };
+		E9E490FFDC3DAB9BFA432087F157B918 /* BKAdditionalData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKAdditionalData.m; path = BakongKHQR/Classes/Public/Models/AdditionalData/BKAdditionalData.m; sourceTree = "<group>"; };
+		EB50DFFC794DE5DA765477C836D668F1 /* KHQRDecodeData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHQRDecodeData.m; path = BakongKHQR/Classes/Public/Models/KHQRDecodeData.m; sourceTree = "<group>"; };
+		ED4DEC618BA08B94756BDC34D2517F0A /* KHQRException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHQRException.m; path = BakongKHQR/Classes/Public/KHQRException.m; sourceTree = "<group>"; };
+		F33E93A6A357FFFB9E3666047DCA21EC /* FormatIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FormatIndicator.m; path = BakongKHQR/Classes/Public/Models/FormatIndicator.m; sourceTree = "<group>"; };
+		F663D36B80CD7F78742163540586CC47 /* UnionPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnionPay.h; path = BakongKHQR/Classes/Public/Models/UnionPay/UnionPay.h; sourceTree = "<group>"; };
+		F697EB2ADA2AD8B0048EBBF7CF2EBDDD /* MerchantCityAlternateLanguage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantCityAlternateLanguage.h; path = BakongKHQR/Classes/Public/Models/MerchantLanguageTemplate/MerchantCityAlternateLanguage.h; sourceTree = "<group>"; };
+		F77569157B64FC4656F01F93726F7559 /* BakongKHQR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BakongKHQR.modulemap; sourceTree = "<group>"; };
+		F87844551D2270D8D8F4F5CB25CAB104 /* MerchantCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantCity.h; path = BakongKHQR/Classes/Public/Models/MerchantCity.h; sourceTree = "<group>"; };
+		F8BF88B7653AC1DA4FC48A92A9DE8E36 /* ResponseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ResponseProtocol.h; path = BakongKHQR/Classes/Public/Protocols/ResponseProtocol.h; sourceTree = "<group>"; };
+		FCE66EFA3EC90C9F8F3D733418516F74 /* NSString+Response.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Response.h"; path = "BakongKHQR/Classes/Private/Categories/NSString+Response.h"; sourceTree = "<group>"; };
+		FD91D23E89C0DBE7E0DEB691284670B2 /* ErrorConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ErrorConstants.m; path = BakongKHQR/Classes/Public/Constants/ErrorConstants.m; sourceTree = "<group>"; };
+		FE141041A61B8BE935516A5187C90D71 /* Constants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = BakongKHQR/Classes/Public/Constants/Constants.m; sourceTree = "<group>"; };
+		FFD3327AFCE7B50FF6B816EA359C701D /* TerminalLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TerminalLabel.m; path = BakongKHQR/Classes/Public/Models/AdditionalData/TerminalLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08ECC6E891868FDA97C9C97A66D9A973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A3B306DD7C983745CC58A0EC98BAE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7926A0A10FE20A559A65ACBF4D5C2DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9702E1FE52C20680ACE79B797A69B0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BC82846002B928DAFFF6C314E7728A6 /* Pods-KHQR */ = {
+			isa = PBXGroup;
+			children = (
+				85F52A20873368E9458891E63CA11D0A /* Pods-KHQR.modulemap */,
+				1F38D47063EC12BB0B951B3A4726C49A /* Pods-KHQR-acknowledgements.markdown */,
+				759AC459CB7D1B3FB0141EF7C978F4C4 /* Pods-KHQR-acknowledgements.plist */,
+				2B2EE26F482FB07A0B003C57DE0E1809 /* Pods-KHQR-dummy.m */,
+				16610EAC9D253C18FEBC989F03CD1B4F /* Pods-KHQR-frameworks.sh */,
+				5BAD8B234765D5111F022905D0A4EE62 /* Pods-KHQR-Info.plist */,
+				58682D6AA10073C93A51B65D35A1D2A5 /* Pods-KHQR-umbrella.h */,
+				AD032338B6FF1A402C3AC6C0DFEA6DEE /* Pods-KHQR.debug.xcconfig */,
+				317EEA1983F40158BE0583D36453A9DC /* Pods-KHQR.release.xcconfig */,
+			);
+			name = "Pods-KHQR";
+			path = "Target Support Files/Pods-KHQR";
+			sourceTree = "<group>";
+		};
+		2EF23A4B42B8217C5C56546FC8F9833A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BC82846002B928DAFFF6C314E7728A6 /* Pods-KHQR */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		386D0B7D65975BC53F7ED49A43361EC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				827DB192D550CAF11A9467C7BF3EC134 /* BakongKHQR */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		827DB192D550CAF11A9467C7BF3EC134 /* BakongKHQR */ = {
+			isa = PBXGroup;
+			children = (
+				5A0ED1DE366B552AB6E5299FE1CC3827 /* AccountInformation.h */,
+				3738F1F7C47A80123FFA8113D534F46D /* AccountInformation.m */,
+				DDD37CBEEA6F39BBCEC2448DC62F6973 /* AccountTypeProtocol.h */,
+				5BD0FCC61063B6E1C4B3C8DBB3742F87 /* AcquiringBank.h */,
+				2AC544F5D134CEF7232EA340CAF7686F /* AcquiringBank.m */,
+				94E21FC376D4C773113BE82789EBE924 /* BakongKHQR.h */,
+				E46DA97DE7BE4438FCCEC90D9BCFF00A /* BakongKHQR.m */,
+				0180072DB084CA3E106C185F40502D3B /* BillNumber.h */,
+				05F13B25AD0D312794D1B2610687310B /* BillNumber.m */,
+				C3222A1084562EC5908D4CAB3007FFAA /* BKAdditionalData.h */,
+				E9E490FFDC3DAB9BFA432087F157B918 /* BKAdditionalData.m */,
+				B7524B0949CEB92A63C8B98346E75F4B /* Constants.h */,
+				FE141041A61B8BE935516A5187C90D71 /* Constants.m */,
+				053FA440E07CE04B441B91313EC1E8A2 /* CountryCode.h */,
+				377F25982D0D56AD07EA5313E98A332E /* CountryCode.m */,
+				CC2DB255B18D17F66B87F76F571BB1E3 /* CRC.h */,
+				85033E434E3714D430EF5EEEDC00C910 /* CRC.m */,
+				6AE6315E9FCE5D0EB1517419D601B3E9 /* CRCValidation.h */,
+				5673B522DEF072D3A32D6202B9DF2AE5 /* CRCValidation.m */,
+				8E643293D8474AE959E1F1CF36ED8708 /* Enums.h */,
+				CF51E96C131A74AC55FF8B2A043F237D /* ErrorConstants.h */,
+				FD91D23E89C0DBE7E0DEB691284670B2 /* ErrorConstants.m */,
+				7895148C42ACDAA9705C801C202B61B5 /* FormatIndicator.h */,
+				F33E93A6A357FFFB9E3666047DCA21EC /* FormatIndicator.m */,
+				837ED16F303B9AABB6B52D17A0EDB922 /* IndividualInfo.h */,
+				0BAD7BA155C953B56C3112698DCF3896 /* IndividualInfo.m */,
+				3495B3030062AEFC2ADC2B49CDB8D7AF /* KHQRData.h */,
+				17E959C8DDB1908B17A6281FAE26A488 /* KHQRData.m */,
+				C86D9DC7273282A08D2D48C83D5C1CCF /* KHQRDecodeData.h */,
+				EB50DFFC794DE5DA765477C836D668F1 /* KHQRDecodeData.m */,
+				051279520136864648A150BCA81DD1A8 /* KHQRDeepLinkData.h */,
+				500A38FBD380935E65692FFA7B26AEA9 /* KHQRDeepLinkData.m */,
+				94C3105155158C4037D593B32C4B220A /* KHQRException.h */,
+				ED4DEC618BA08B94756BDC34D2517F0A /* KHQRException.m */,
+				3FD3D05E9C681EC9ACF53A19839484BB /* KHQRMerchantPresentedCodes.h */,
+				7402ECB6696C634786A820C65A864425 /* KHQRMerchantPresentedCodes.m */,
+				E554AFA3BA7B1897B4E737402FB79B6F /* KHQRProtocol.h */,
+				7C453F1F11DEBA3B1EE94BAA8F009D21 /* KHQRResponse.h */,
+				D46A4D26357341D7AEBD59C49057045E /* KHQRResponse.m */,
+				57F6AEED9F0A40DF2278BECE5DB10866 /* MerchantAccount.h */,
+				2DBBCA04AC0C51B0331D0E558B9C5812 /* MerchantAccount.m */,
+				9DE2E48A00C50DF97AB5C04B9C641489 /* MerchantCategoryCode.h */,
+				C38B9C5F3CDE5EF884A7C4A8BD792BF4 /* MerchantCategoryCode.m */,
+				F87844551D2270D8D8F4F5CB25CAB104 /* MerchantCity.h */,
+				074BABDAC717AAE85E9B807E9D89D04B /* MerchantCity.m */,
+				F697EB2ADA2AD8B0048EBBF7CF2EBDDD /* MerchantCityAlternateLanguage.h */,
+				62DFE8AFB7BA299C902A344B038B70FB /* MerchantCityAlternateLanguage.m */,
+				E60BBCFA2F7DAEF364E38E1FDEBA1B91 /* MerchantID.h */,
+				78A64C3398E8028241B5B1486D518616 /* MerchantID.m */,
+				05E41AD0E77AED62700D3BEBB42DCD34 /* MerchantInfo.h */,
+				00C0C54C313119E9D105D3C3255836F6 /* MerchantInfo.m */,
+				A968431B3E02EC8A21D0B310F0D45A11 /* MerchantLanguageAlternatePreference.h */,
+				715CC8A2F6224BA00A958FF765662088 /* MerchantLanguageAlternatePreference.m */,
+				868CDD54195E284312CA48EAAE16ED14 /* MerchantLanguageTemplate.h */,
+				966C10FC604D22621061165B582F0B74 /* MerchantLanguageTemplate.m */,
+				5D7FF2F4505ADB6AFC4D637FDFE84344 /* MerchantName.h */,
+				784794561D61E484A9437E14B0E5801D /* MerchantName.m */,
+				6160B955AF008C1C920F7BBB885631A5 /* MerchantNameAlternateLanguage.h */,
+				69B7524515B7D0E901B1128813EB4625 /* MerchantNameAlternateLanguage.m */,
+				DF7BC69BF2BEDB35E4E84277C3C4BB71 /* MobileNumber.h */,
+				5F5651C5D4C107D06A09E36D3CE85280 /* MobileNumber.m */,
+				8EA5CB4EBDA9ACF8F2813E3137DAABA3 /* NSData+CRC-16CCITT.h */,
+				436C520B8D33AC1218D16AD7D6600DAE /* NSData+CRC-16CCITT.m */,
+				A2FC639FC830217B5EE77A5677BD1470 /* NSString+md5.h */,
+				7A6B990382488B96A2F61C7444166729 /* NSString+md5.m */,
+				FCE66EFA3EC90C9F8F3D733418516F74 /* NSString+Response.h */,
+				0C8CB4B5BDDF371507E93B6923E81D33 /* NSString+Response.m */,
+				22620302F160E2ACCCB15327EC8C5804 /* PointInitialize.h */,
+				8783A8DCEFEE94D02D0B707951257117 /* PointInitialize.m */,
+				9E26C7A6189F665819459021CD651394 /* PurposeOfTransaction.h */,
+				757CB78E82362CAAB2DA0F97A51F2042 /* PurposeOfTransaction.m */,
+				2A436ADC1DC882E4690CE248BF84CA08 /* QrCrc16.h */,
+				1AA2EFC7DCFA0BE72397CD15DCCC7EAB /* QrCrc16.m */,
+				08E746A05999CDA75183A6111B2F9163 /* ReserveForUse.h */,
+				A785481E80D1D2B5983C8F1ECE7D0038 /* ReserveForUse.m */,
+				F8BF88B7653AC1DA4FC48A92A9DE8E36 /* ResponseProtocol.h */,
+				88D6F8293312F27171F679C25ECAF2C8 /* SourceInfo.h */,
+				D751BB0E6FA974DC907664E751F23182 /* SourceInfo.m */,
+				8002EA8F1816CC5F284F4C8C5F8BCF5A /* Status.h */,
+				B85949DCA7CFF22371E3CBB9382D0E33 /* Status.m */,
+				6C0C99DD5BD00074132C8B11885BF459 /* StoreLabel.h */,
+				ADDDDB1664FD7948FFB7155941001CA2 /* StoreLabel.m */,
+				19C9EFB923FA183B113D6854CA4CCCF7 /* TagLengthStringProtocol.h */,
+				E930B4B2EC22A48B26DE839F0FE32233 /* TerminalLabel.h */,
+				FFD3327AFCE7B50FF6B816EA359C701D /* TerminalLabel.m */,
+				79931948DD9A0FDCDC2EC34079E977E5 /* TransactionAmount.h */,
+				1E103D0B80CA1D5DBC38E184C0A3D364 /* TransactionAmount.m */,
+				BFB9A240CE9A636C5FF44E58E5F4911A /* TransactionCurrency.h */,
+				97F80A86E543CA594BAF8D3EFB9301DB /* TransactionCurrency.m */,
+				F663D36B80CD7F78742163540586CC47 /* UnionPay.h */,
+				C4F859CB1E9FAC3ED2346F7F4472C2A8 /* UnionPay.m */,
+				29172D7962084BBDD1F4A8087F096740 /* ValueLengthConstants.h */,
+				5C1EC63CBC69595487F128DA70F33A19 /* ValueLengthConstants.m */,
+				CBEADCDAC20A781CE1E83062A3BC5169 /* Support Files */,
+			);
+			name = BakongKHQR;
+			path = BakongKHQR;
+			sourceTree = "<group>";
+		};
+		B6E760E810418B9C533EA20D37EC6F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D34A688EE742AF353F5CB3AEBDA44153 /* BakongKHQR */,
+				D665349A4E7F94105D458BF10792022F /* Pods-KHQR */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBEADCDAC20A781CE1E83062A3BC5169 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F77569157B64FC4656F01F93726F7559 /* BakongKHQR.modulemap */,
+				C754915113512952B7C58430676254B4 /* BakongKHQR-dummy.m */,
+				BFE1571C29F8A54F40505ACE7D4E11D7 /* BakongKHQR-Info.plist */,
+				7D60ABDBB3AC47769DD33985EE19011C /* BakongKHQR-prefix.pch */,
+				5CAA4F610720BBB66F8414747535B462 /* BakongKHQR-umbrella.h */,
+				C82CD2440479A74739E0EBB51A252EC2 /* BakongKHQR.debug.xcconfig */,
+				ADD84CFF8EAF4F585B80D6FFEA55698C /* BakongKHQR.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BakongKHQR";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				386D0B7D65975BC53F7ED49A43361EC6 /* Pods */,
+				B6E760E810418B9C533EA20D37EC6F6F /* Products */,
+				2EF23A4B42B8217C5C56546FC8F9833A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B879161C50E6738B07B0F59710786FD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72C263A1DD9D97AE8C29611B4EF5FBA /* AccountInformation.h in Headers */,
+				CE5363F1CE5C58523219559BD6AE2747 /* AccountTypeProtocol.h in Headers */,
+				B9AB01953CDD17F57188A1B33C13AF6F /* AcquiringBank.h in Headers */,
+				AA25EAB5C811397557F5FFB78A00ECDD /* BakongKHQR.h in Headers */,
+				5B783BCC5A37F3CDCAD1EAE79053697F /* BakongKHQR-umbrella.h in Headers */,
+				D1DF22702809F38E436913BAF884EC3C /* BillNumber.h in Headers */,
+				4F842FF2D598CAD219839E7467C1B9CB /* BKAdditionalData.h in Headers */,
+				97520B2B6D0AFA3D183F12DCDCA06086 /* Constants.h in Headers */,
+				C79D6AAC8477A6B649932DC06761E98D /* CountryCode.h in Headers */,
+				F1E2B9F30E49B0DAE7363C05E0894F28 /* CRC.h in Headers */,
+				8657B3AC90F59933078AF50AF9E4866F /* CRCValidation.h in Headers */,
+				D715F4601562146CBE92673519FD505D /* Enums.h in Headers */,
+				182EBB0557CB04F9BAA5EC450BE56642 /* ErrorConstants.h in Headers */,
+				28A64D1A63252898A2ADB24801614B39 /* FormatIndicator.h in Headers */,
+				92D2373BA6F9AED7F163A62BAA85D546 /* IndividualInfo.h in Headers */,
+				7EBB201090F34F2CD3BF0FC1CA26BA31 /* KHQRData.h in Headers */,
+				CF591045E350C99D7A3C5EA83B4ED0FD /* KHQRDecodeData.h in Headers */,
+				F11EE9474659B2BA6E94405D9EF1C683 /* KHQRDeepLinkData.h in Headers */,
+				94BFDB799F5D3E0C80FCA400850424C8 /* KHQRException.h in Headers */,
+				B4A7DA281FEB7AF0D445A9E1FBBA7D5A /* KHQRMerchantPresentedCodes.h in Headers */,
+				716F6F381AF619EF0F9B741823DF5606 /* KHQRProtocol.h in Headers */,
+				4532760FED81AF71925C5CFA92B40470 /* KHQRResponse.h in Headers */,
+				5780ADC965A6964A0B7DC0160C50ADF9 /* MerchantAccount.h in Headers */,
+				88EA04840D0BA8A89F6E5057508343A5 /* MerchantCategoryCode.h in Headers */,
+				F946E6A9968E8661D2B2FF21A2DA0135 /* MerchantCity.h in Headers */,
+				5D9ABE5A6EE931FA6D1EB9FBDE537DAA /* MerchantCityAlternateLanguage.h in Headers */,
+				36B842FDB44D60A58A2AC1FD5641B2DE /* MerchantID.h in Headers */,
+				9012277907FA182499F53B1F0649510A /* MerchantInfo.h in Headers */,
+				3DC3AD9D908AF0159BDC5255603E36C2 /* MerchantLanguageAlternatePreference.h in Headers */,
+				4270966B6525764EE003D6280B4A82E4 /* MerchantLanguageTemplate.h in Headers */,
+				87B7B4A5175A2721A7E377B1F76BB64A /* MerchantName.h in Headers */,
+				6358C1282192983A8D7B96E566277B98 /* MerchantNameAlternateLanguage.h in Headers */,
+				A9F5F6E3B67E8656DFD23BC8E63CF879 /* MobileNumber.h in Headers */,
+				2C321C6E1522E720F658A94A150A6DA2 /* NSData+CRC-16CCITT.h in Headers */,
+				479E9688459FDA5F1ED96729A537AD17 /* NSString+md5.h in Headers */,
+				1B30C9B0ABE3AB704979CD8B02C2D44F /* NSString+Response.h in Headers */,
+				CA9BE1D9AFA2DBB1704E79FEF112E1EB /* PointInitialize.h in Headers */,
+				369DF34B434917B727470D84D200CAE7 /* PurposeOfTransaction.h in Headers */,
+				2127239F145E01DE7FE747228CDB30FF /* QrCrc16.h in Headers */,
+				06F80271BE6AD9161054647F8DCF7CFF /* ReserveForUse.h in Headers */,
+				8A8E9306A0E2AC8349DCE75EFF96E72E /* ResponseProtocol.h in Headers */,
+				14F652D4F75201248586EAD76C170D3C /* SourceInfo.h in Headers */,
+				E6B1DB593F8BB082EC66385C3602A7F7 /* Status.h in Headers */,
+				650C7AFF438934888BEEAFA44072B14A /* StoreLabel.h in Headers */,
+				F8430D5ED121AC72A7EFBF4507A6D8B9 /* TagLengthStringProtocol.h in Headers */,
+				E2CB6E07D22EFE92A2C945CA9D1BAC7C /* TerminalLabel.h in Headers */,
+				632AC718BF246629336A5CE9B77EF63E /* TransactionAmount.h in Headers */,
+				94382B20AA6D9E73A80FF64FB10D9E40 /* TransactionCurrency.h in Headers */,
+				00D3322D8C09EFE56216503589086764 /* UnionPay.h in Headers */,
+				21ACBDD513FF559A07F037132C0EBEB1 /* ValueLengthConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF15A0600F401472781296F41F3A0D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B390422C13EE3E135D6FEC318A933A4 /* Pods-KHQR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A51A0870EE310BD2274E8D813428FB4 /* BakongKHQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C945C0B5EA38ACB7895CFC3E660D4DEC /* Build configuration list for PBXNativeTarget "BakongKHQR" */;
+			buildPhases = (
+				B879161C50E6738B07B0F59710786FD2 /* Headers */,
+				ABFAA62140B600F5A69A99C6B7B4D37F /* Sources */,
+				7926A0A10FE20A559A65ACBF4D5C2DDD /* Frameworks */,
+				E666FD1B494875E8FF4459948F8EB127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BakongKHQR;
+			productName = BakongKHQR;
+			productReference = D34A688EE742AF353F5CB3AEBDA44153 /* BakongKHQR */;
+			productType = "com.apple.product-type.framework";
+		};
+		63336BE5E6A3F7D882F18DB55BAA9F51 /* Pods-KHQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D13946DFA0BC59696E7932314CB949 /* Build configuration list for PBXNativeTarget "Pods-KHQR" */;
+			buildPhases = (
+				ECF15A0600F401472781296F41F3A0D6 /* Headers */,
+				C97039484468E52B819829FD8485B337 /* Sources */,
+				08ECC6E891868FDA97C9C97A66D9A973 /* Frameworks */,
+				5E2AE1E97E4D012C48433E68221D5D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF704AC7F904CAA744A9F10D5E1288C /* PBXTargetDependency */,
+			);
+			name = "Pods-KHQR";
+			productName = Pods_KHQR;
+			productReference = D665349A4E7F94105D458BF10792022F /* Pods-KHQR */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B6E760E810418B9C533EA20D37EC6F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A51A0870EE310BD2274E8D813428FB4 /* BakongKHQR */,
+				63336BE5E6A3F7D882F18DB55BAA9F51 /* Pods-KHQR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E2AE1E97E4D012C48433E68221D5D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E666FD1B494875E8FF4459948F8EB127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABFAA62140B600F5A69A99C6B7B4D37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4C5289F691FC914CECB5C6D0EE9E24 /* AccountInformation.m in Sources */,
+				A414928EC3C016CDF396EEC69CFD419F /* AcquiringBank.m in Sources */,
+				3BB76C695CE3829AFF7DC539A652735D /* BakongKHQR.m in Sources */,
+				4F3350D21845FA8EBAD908F4F569BB91 /* BakongKHQR-dummy.m in Sources */,
+				A29BDF45378DCC2BB7214B15A95E26CE /* BillNumber.m in Sources */,
+				047077C58FDB738FFE20F508E576B3B0 /* BKAdditionalData.m in Sources */,
+				BFB3EE139B1DA5B94FD935775DCC8265 /* Constants.m in Sources */,
+				83DACB8E250AB7CE6F46295D18EEF0A4 /* CountryCode.m in Sources */,
+				5FE517023DAC54D9BF28571DE452CAF1 /* CRC.m in Sources */,
+				4EC77A6687E7EF1F83C227902129EF10 /* CRCValidation.m in Sources */,
+				C68ACB97ED75712139FB365E5BD06CE2 /* ErrorConstants.m in Sources */,
+				3D42022485B7F3F37ED4D64C9BBC8C1B /* FormatIndicator.m in Sources */,
+				D23C60813AF727BAA16E3AB6CB7D9F5F /* IndividualInfo.m in Sources */,
+				3D2EA4A0DB8A8C12CE2BE11BE4E2A605 /* KHQRData.m in Sources */,
+				F1A212373513B93EC9E393EE11D3794E /* KHQRDecodeData.m in Sources */,
+				F890DEB02E470068FA6C1F3FFD420DC2 /* KHQRDeepLinkData.m in Sources */,
+				F0537D539E0EDEF8FB82DB2074EF84D1 /* KHQRException.m in Sources */,
+				235768FF905042C9BAD24E7DC1872B64 /* KHQRMerchantPresentedCodes.m in Sources */,
+				1E815FFCDA3F19477CEB653F904091FA /* KHQRResponse.m in Sources */,
+				CA16FE7A000582BC6669A0A3EFFF9E3D /* MerchantAccount.m in Sources */,
+				E362BC5C1A4D42CD4F0980EFD445D053 /* MerchantCategoryCode.m in Sources */,
+				5E9C6F3BB6343FA710677C553D6D9E37 /* MerchantCity.m in Sources */,
+				9DF025BEFAF56CD540B300D09E6B3306 /* MerchantCityAlternateLanguage.m in Sources */,
+				B1BCE604FB26239F35A13C923A886EA8 /* MerchantID.m in Sources */,
+				C592BB866CB64FDE6DBCAB7A70568288 /* MerchantInfo.m in Sources */,
+				07817B742906EFA37EE27E17845F31F1 /* MerchantLanguageAlternatePreference.m in Sources */,
+				50BDEB64C166EDDBCE18939425CA462F /* MerchantLanguageTemplate.m in Sources */,
+				38DC46F1BE446E226249EBD8936EBCFD /* MerchantName.m in Sources */,
+				4ED13007E878054C256B77215B5F92AC /* MerchantNameAlternateLanguage.m in Sources */,
+				1C53A138404B9F4C3A7CA51B49EC5B8B /* MobileNumber.m in Sources */,
+				C5095D9459141ABA5B74662FC9A7F771 /* NSData+CRC-16CCITT.m in Sources */,
+				CF4352450560F3597F44537BAB7003A1 /* NSString+md5.m in Sources */,
+				D033487629C072606A53B8F1551CA65B /* NSString+Response.m in Sources */,
+				F061131CCF0FD03149A90BC608E933AA /* PointInitialize.m in Sources */,
+				FB2F1B0644FB991025044A82DAC3782A /* PurposeOfTransaction.m in Sources */,
+				4FBC56F92C40EE50102D316612483138 /* QrCrc16.m in Sources */,
+				4511C59EEDBBC17B36D83010FB58E14E /* ReserveForUse.m in Sources */,
+				41BCD5C3C7EA45E471B46996BC518EBE /* SourceInfo.m in Sources */,
+				CBA8B36F32E0246B7325EB8A439A8AFD /* Status.m in Sources */,
+				588BB28D366DA8F6BA2105987993BC5B /* StoreLabel.m in Sources */,
+				B7FA276BACD096B2C32BA1D6B2BB0033 /* TerminalLabel.m in Sources */,
+				DA995AD0EA05105C2726267541E46868 /* TransactionAmount.m in Sources */,
+				7987374F572D36137FD16D742E1E4DF1 /* TransactionCurrency.m in Sources */,
+				D95AC8CB2E51F98006FFE3E1A7314177 /* UnionPay.m in Sources */,
+				1BAD07A5039E7D7A509BE97180DCCF83 /* ValueLengthConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97039484468E52B819829FD8485B337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2E3A640C377E22EFFFE6009584B12E /* Pods-KHQR-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCF704AC7F904CAA744A9F10D5E1288C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BakongKHQR;
+			target = 4A51A0870EE310BD2274E8D813428FB4 /* BakongKHQR */;
+			targetProxy = 319A2F9110B38EA975616790770000E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		143122EAC9C83637A4034548BD18E40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317EEA1983F40158BE0583D36453A9DC /* Pods-KHQR.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHQR/Pods-KHQR-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHQR/Pods-KHQR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1ADB374956CE9B49DAE5A7FE0B202694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD84CFF8EAF4F585B80D6FFEA55698C /* BakongKHQR.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BakongKHQR/BakongKHQR-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BakongKHQR/BakongKHQR-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BakongKHQR/BakongKHQR.modulemap";
+				PRODUCT_MODULE_NAME = BakongKHQR;
+				PRODUCT_NAME = BakongKHQR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A14616E8AAF7D5BAD1AC40A10914D134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD032338B6FF1A402C3AC6C0DFEA6DEE /* Pods-KHQR.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHQR/Pods-KHQR-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHQR/Pods-KHQR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB054D208F47A287432F3BABE080B9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82CD2440479A74739E0EBB51A252EC2 /* BakongKHQR.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BakongKHQR/BakongKHQR-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BakongKHQR/BakongKHQR-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BakongKHQR/BakongKHQR.modulemap";
+				PRODUCT_MODULE_NAME = BakongKHQR;
+				PRODUCT_NAME = BakongKHQR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D13946DFA0BC59696E7932314CB949 /* Build configuration list for PBXNativeTarget "Pods-KHQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14616E8AAF7D5BAD1AC40A10914D134 /* Debug */,
+				143122EAC9C83637A4034548BD18E40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C945C0B5EA38ACB7895CFC3E660D4DEC /* Build configuration list for PBXNativeTarget "BakongKHQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB054D208F47A287432F3BABE080B9F5 /* Debug */,
+				1ADB374956CE9B49DAE5A7FE0B202694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

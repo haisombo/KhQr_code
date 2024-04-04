@@ -1,0 +1,16 @@
+PODS:
+  - BakongKHQR (1.0.0.15)
+
+DEPENDENCIES:
+  - BakongKHQR
+
+SPEC REPOS:
+  "https://sambo:ycfXmxxRbyzEmozY9z6n@gitlab.nbc.gov.kh/khqr/khqr-ios-pod.git":
+    - BakongKHQR
+
+SPEC CHECKSUMS:
+  BakongKHQR: 6ade9d154b26056075c9b8bcc865ad7ca1652424
+
+PODFILE CHECKSUM: 498c8d544851b99f1dad0da2e6188536c9d3fff4
+
+COCOAPODS: 1.15.2
